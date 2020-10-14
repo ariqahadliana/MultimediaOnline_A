@@ -1,4 +1,48 @@
 <html>
+  <head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+  <body>
   <body style="background-color:powderblue;">
 <h1 style="text-align:center;">TEKNOLOGI MULTIMEDIA</h1>
   <p style="background-color:pink;text-align:center;">Ariqah Adliana Siregar</p>
@@ -8,24 +52,19 @@ Assalamualaikum akhi-ukhti:) Semoga sehat selalu ya!
 <pre>
 Jangan lupa baca doa dulu sebelum praktikum di mulai. Semangat...!
 <p style="font-size:160%;font-family:verdana;">List Praktikum :</p>
-  <li>Praktikum 1</li> 
-  <button onclick="myFunction()">Click me</button>
-  <p id="demo"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
-
-  <li>Praktikum 2</li>
-  <li>Praktikum 3</li>
-  <li>Praktikum 4</li>
-  <li>Praktikum 5</li>
-  <li>Praktikum 6</li>
-  <li>Praktikum 7</li>
-  <li>Praktikum 8</li>
-  <li>Praktikum 9</li>
-  <li>Praktikum 10</li> 
-</body>
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="#praktikum_1_1800016036.html">Praktikum 1</a>
+  <a href="#">Praktikum 2</a>
+  <a href="#">Praktikum 3</a>
+  <a href="#">Praktikum 4</a>
+  <a href="#">Praktikum 5</a>
+  <a href="#">Praktikum 6</a>
+  <a href="#">Praktikum 7</a>
+  <a href="#">Praktikum 8</a>
+  <a href="#">Praktikum 9</a>
+  <a href="#">Praktikum 10</a> 
+  </div>
+</div>
 </html>
